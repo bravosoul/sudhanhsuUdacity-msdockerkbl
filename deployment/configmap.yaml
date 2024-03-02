@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  DB_USERNAME: "postgres"
+  DB_NAME: "postgres"
+  DB_HOST: "demosqlsvc-postgresql.default.svc.cluster.local"
+  DB_PORT: "5432"
+  DB_PASSWORD: "UXRGmHdRy6"
+metadata:
+  name: db-env
